@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import Navbar from './Components/Navbar';
+import ImgCarousel from './Components/ImgCarousel'
+import Footer from './Components/Footer';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Welcome to the Cannabis App</h1>
+      <div>
+        <Navbar />
+        <ImgCarousel />
+        <Footer />
       </div>
     );
   }
